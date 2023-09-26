@@ -6,12 +6,13 @@ extern printf
 section .text
     main:
         push rbx
-        lea rdi, [rel code]
-        lea rsi, [rel code]
         MOV rax, 0
+        mov rdi, code
+        mov rsi, format
         call printf wrt ..plt
         pop rsi
         ret
 
 code:
-    db "hello", 0xA
+    code DB "hello, %s", 10, 0xA
+    format DB "archi", 0
