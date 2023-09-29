@@ -19,16 +19,24 @@ clean:
 	@if [ -f "Grace.o" ]; then rm Grace.o; fi
 	@if [ -f "Grace_kid.s" ]; then rm Grace_kid.s; fi
 	@if [ -f "Sully.o" ]; then rm Sully.o; fi
+	@if [ -f "Sully_5.o" ]; then rm Sully_5.o; fi
 	@if [ -f "Sully_4.o" ]; then rm Sully_4.o; fi
 	@if [ -f "Sully_3.o" ]; then rm Sully_3.o; fi
 	@if [ -f "Sully_2.o" ]; then rm Sully_2.o; fi
 	@if [ -f "Sully_1.o" ]; then rm Sully_1.o; fi
 	@if [ -f "Sully_0.o" ]; then rm Sully_0.o; fi
+	@if [ -f "Sully_5.s" ]; then rm Sully_5.s; fi
+	@if [ -f "Sully_4.s" ]; then rm Sully_4.s; fi
+	@if [ -f "Sully_3.s" ]; then rm Sully_3.s; fi
+	@if [ -f "Sully_2.s" ]; then rm Sully_2.s; fi
+	@if [ -f "Sully_1.s" ]; then rm Sully_1.s; fi
+	@if [ -f "Sully_0.s" ]; then rm Sully_0.s; fi
 
 fclean: clean
 	@if [ -f "Colleen" ]; then rm Colleen; fi
 	@if [ -f "Grace" ]; then rm Grace; fi
 	@if [ -f "Sully" ]; then rm Sully; fi
+	@if [ -f "Sully_5" ]; then rm Sully_5; fi
 	@if [ -f "Sully_4" ]; then rm Sully_4; fi
 	@if [ -f "Sully_3" ]; then rm Sully_3; fi
 	@if [ -f "Sully_2" ]; then rm Sully_2; fi

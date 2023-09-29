@@ -16,6 +16,7 @@ clean:
 	@if [ -f "Grace.o" ]; then rm Grace.o; fi
 	@if [ -f "Grace_kid.c" ]; then rm Grace_kid.c; fi
 	@if [ -f "Sully.o" ]; then rm Sully.o; fi
+	@if [ -f "Sully_5.c" ]; then rm Sully_5.c; fi
 	@if [ -f "Sully_4.c" ]; then rm Sully_4.c; fi
 	@if [ -f "Sully_3.c" ]; then rm Sully_3.c; fi
 	@if [ -f "Sully_2.c" ]; then rm Sully_2.c; fi
@@ -26,6 +27,7 @@ fclean: clean
 	@if [ -f "Colleen" ]; then rm Colleen; fi
 	@if [ -f "Grace" ]; then rm Grace; fi
 	@if [ -f "Sully" ]; then rm Sully; fi
+	@if [ -f "Sully_5" ]; then rm Sully_5; fi
 	@if [ -f "Sully_4" ]; then rm Sully_4; fi
 	@if [ -f "Sully_3" ]; then rm Sully_3; fi
 	@if [ -f "Sully_2" ]; then rm Sully_2; fi
