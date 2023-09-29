@@ -1,6 +1,8 @@
 .PHONY: all clean fclean re
 
-all: Colleen Grace Sully
+NAMES = Colleen Grace Sully
+
+all: $(NAMES)
 
 Colleen: Colleen.s
 	nasm -f elf64 Colleen.s -o Colleen.o

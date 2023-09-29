@@ -1,6 +1,8 @@
 .PHONY: all clean fclean re
 
-all: Colleen Grace Sully
+NAMES = Colleen Grace Sully
+
+all: $(NAMES)
 
 Colleen: Colleen.o
 	clang -Wall -Wextra -Werror Colleen.c -o Colleen
